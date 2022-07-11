@@ -1,0 +1,26 @@
+.card-container {
+  display: grid;
+  color: black;
+  border-radius: 3px;
+}
+
+:host ::ng-deep {
+  .header {
+    background-color: lightgreen;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .title {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    grid-gap: 10px;
+  }
+  .body,
+  .footer {
+    padding: 10px;
+  }
+}
