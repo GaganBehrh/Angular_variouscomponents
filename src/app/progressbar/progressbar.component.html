@@ -1,4 +1,5 @@
-<div class="card-container">
+
+<div class="progressbar-container">
   <div class="header">
     <i *ngif="iconClasses" [class]="iconClasses"></i>
     <div class="title">
@@ -6,8 +7,9 @@
       <h6>
         {{ subtitle }}
       </h6>
+      <small>{{value}}</small>
+      <progress [value]="value" [max]="max"></progress>
     </div>
+     
   </div>
-  <div class="body">Body Content</div>
-  <div class="footer">Footer Content</div>
 </div>

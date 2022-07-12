@@ -1,9 +1,7 @@
-
-.card-container {
+.accordion-container {
   display: grid;
   color: black;
   border-radius: 3px;
-
 }
 
 :host ::ng-deep {
@@ -20,9 +18,6 @@
     grid-template-columns: auto 1fr;
     align-items: center;
     grid-gap: 10px;
-  }
-  .body,
-  .footer {
-    padding: 10px;
+    
   }
 }

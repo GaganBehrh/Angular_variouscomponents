@@ -16,9 +16,20 @@
     <li>Other</li>
   </ul>
 </app-titlebar>
+<app-progressbar [iconClasses]="'fa-solid fa-info'"
+  [title]="'Progress Bar'"
+  [subtitle]="'Components'"
+  body [value]="progressValue">
+<button>Update</button>
+</app-progressbar>
+
+<app-accordion [iconClasses]="'fa-solid fa-info'"
+  [title]="'accordion'"
+  [subtitle]="'Components'"></app-accordion>
 <app-card
   [iconClasses]="'fa-solid fa-info'"
   [title]="'card '"
   [subtitle]="'Components'"
 >
 </app-card>
+
